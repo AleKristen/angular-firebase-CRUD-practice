@@ -117,8 +117,16 @@
               "devServerTarget": "fireCrud:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "fireCrud"
+    }
+  },
+  "defaultProject": "fireCrud",
+  "cli": {
+    "analytics": false
+  }
 }

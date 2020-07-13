@@ -1,0 +1,11 @@
+<!--ngSubmit para agregar funcion cuando el formulario se envie-->
+<form (ngSubmit)= "agregar()">
+  <!--este input tiene que ser llenado en item.name-->
+  <input
+  type="text" placeholder="Ingresa tu nombre"
+  name="name" class="form-control"
+  [(ngModel)]= "item.name"
+  >
+<!--ngModel para poder llenar campo input con el item.name-->
+  <button class="btn btn-warning mt-3" type="submit">Agregar</button>
+</form>

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "firecrud-5489b": {
+      "hosting": {
+        "fireCrud": [
+          "firecrud-5489b"
+        ]
+      }
+    }
+  }
+}
